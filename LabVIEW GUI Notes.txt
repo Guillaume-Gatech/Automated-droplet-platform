@@ -1,0 +1,6 @@
+Main.vi file is the GUI used for running the platform and shown in SI Fig. 5.
+The folders "Camera subVI", "Communication with pressure boxes", and "Import commands from excel file" contain subVIs called in the Main.vi program.
+The folder "Phenotyping" contains VIs used for analyzing the animal's movement. For "in-situ" phenotyping, such as during the mock screen, the VI must be wired inside the Main.vi program to process the movies.
+Furthermore, the remaining VIs and driver libraries of the Main.vi file can be found here:
+	- for the camera plug-in: https://www.lumenera.com/national-instruments-labview-plug-in.html 
+	- for interfacing the arduino: https://www.labviewmakerhub.com/doku.php?id=libraries:linx:start
